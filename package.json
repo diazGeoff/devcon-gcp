@@ -1,0 +1,25 @@
+{
+  "name": "geoff-node",
+  "version": "1.0.1",
+  "description": "Test App Engine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "App",
+    "Engine"
+  ],
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "author": "diaz.geoff.work@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.3.1"
+  }
+}
